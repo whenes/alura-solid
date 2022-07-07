@@ -30,4 +30,11 @@ public class FuncionarioRefatorado {
         this.dataUltimoReajuste = dataUltimoReajuste;
     }
 
+    public void setDadosPessoais(DadosPessoais dadosPessoais) {
+        this.dadosPessoais = dadosPessoais;
+    }
+
+    public DadosPessoais getDadosPessoais() {
+        return dadosPessoais;
+    }
 }
